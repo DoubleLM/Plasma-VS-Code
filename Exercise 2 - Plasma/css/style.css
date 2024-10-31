@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3b3b3b;
+    color: #9ADBCF;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background: rgb(154, 219, 207);
+    background: linear-gradient(180deg, rgba(154, 219, 207, 1) 0%, rgba(167, 172, 197, 1) 80%, rgba(139, 109, 168, 1) 100%);
+}
+
+body,
+html {
+    min-height: 100vh;
+    margin: 0;
+}
+
+section {
+    padding: 20px 50px;
+}
+
+h2 {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #3b3b3b;
+    color: #9ADBCF;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.farigiraf {
+    caret-color: red;
+}
+
+.flex-parent {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 4px;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.meta {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
